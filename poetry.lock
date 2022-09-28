@@ -481,6 +481,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "more-itertools"
+version = "8.14.0"
+description = "More routines for operating on iterables, beyond itertools"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[[package]]
 name = "nbclient"
 version = "0.6.6"
 description = "A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor."
@@ -1013,7 +1021,7 @@ notebook = ">=4.4.1"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "2f18eb7f0770b815f5c77b4f854a33554f7d884501b0ce1e9bfca03fdbc1a7aa"
+content-hash = "c16688eabd7776b3f203dace8bf8c2678fcd2f2db4a2ce7a64dc2a91786a8138"
 
 [metadata.files]
 appnope = []
@@ -1107,6 +1115,7 @@ markupsafe = [
 ]
 matplotlib-inline = []
 mistune = []
+more-itertools = []
 nbclient = []
 nbconvert = []
 nbformat = []
