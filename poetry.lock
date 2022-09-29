@@ -489,6 +489,18 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "natsort"
+version = "8.2.0"
+description = "Simple yet flexible natural sorting in Python."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.extras]
+fast = ["fastnumbers (>=2.0.0)"]
+icu = ["PyICU (>=1.0.0)"]
+
+[[package]]
 name = "nbclient"
 version = "0.6.6"
 description = "A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor."
@@ -1021,7 +1033,7 @@ notebook = ">=4.4.1"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "c16688eabd7776b3f203dace8bf8c2678fcd2f2db4a2ce7a64dc2a91786a8138"
+content-hash = "bbbcbdd794de660c31a5d6f74259b18ffd03a38ae76a0eec9c35a862aba44527"
 
 [metadata.files]
 appnope = []
@@ -1116,6 +1128,7 @@ markupsafe = [
 matplotlib-inline = []
 mistune = []
 more-itertools = []
+natsort = []
 nbclient = []
 nbconvert = []
 nbformat = []
